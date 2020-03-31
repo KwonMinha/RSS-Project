@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		245BBF17FCB6A2FC47028A7E /* Pods_RSSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288F076047435E93853EDB4 /* Pods_RSSTest.framework */; };
 		D106AA5C2433B1AA009291F6 /* RSSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106AA5B2433B1AA009291F6 /* RSSTableViewCell.swift */; };
+		D106AA5E2433B8F5009291F6 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106AA5D2433B8F5009291F6 /* XMLParser.swift */; };
 		D1B45005242BCB0500114006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B45004242BCB0500114006 /* AppDelegate.swift */; };
 		D1B45007242BCB0500114006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B45006242BCB0500114006 /* SceneDelegate.swift */; };
 		D1B45009242BCB0500114006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B45008242BCB0500114006 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 		6C0EB40A9EE4A455901982B3 /* Pods-RSSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSTest.debug.xcconfig"; path = "Target Support Files/Pods-RSSTest/Pods-RSSTest.debug.xcconfig"; sourceTree = "<group>"; };
 		B4966EFBD77078ECFD3B0F18 /* Pods-RSSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSTest.release.xcconfig"; path = "Target Support Files/Pods-RSSTest/Pods-RSSTest.release.xcconfig"; sourceTree = "<group>"; };
 		D106AA5B2433B1AA009291F6 /* RSSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSTableViewCell.swift; sourceTree = "<group>"; };
+		D106AA5D2433B8F5009291F6 /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 		D1B45001242BCB0500114006 /* RSSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B45004242BCB0500114006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1B45006242BCB0500114006 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +60,6 @@
 				6C0EB40A9EE4A455901982B3 /* Pods-RSSTest.debug.xcconfig */,
 				B4966EFBD77078ECFD3B0F18 /* Pods-RSSTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 			children = (
 				D1B45004242BCB0500114006 /* AppDelegate.swift */,
 				D1B45006242BCB0500114006 /* SceneDelegate.swift */,
+				D106AA5D2433B8F5009291F6 /* XMLParser.swift */,
 				D1B45008242BCB0500114006 /* ViewController.swift */,
 				D106AA5B2433B1AA009291F6 /* RSSTableViewCell.swift */,
 				D1B4500A242BCB0500114006 /* Main.storyboard */,
@@ -214,6 +216,7 @@
 				D1B45009242BCB0500114006 /* ViewController.swift in Sources */,
 				D1B45005242BCB0500114006 /* AppDelegate.swift in Sources */,
 				D1B45007242BCB0500114006 /* SceneDelegate.swift in Sources */,
+				D106AA5E2433B8F5009291F6 /* XMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

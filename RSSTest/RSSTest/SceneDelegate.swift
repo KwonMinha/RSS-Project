@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13.0, *) // 새로 추가한 내용
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
