@@ -6,6 +6,7 @@ target 'RSSTest' do
   use_frameworks!
   
   pod 'Kanna', '~> 5.2.2'
+  pod 'Kingfisher'
 
   # Pods for RSSTest
 
