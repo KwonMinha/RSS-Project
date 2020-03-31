@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D106AA5C2433B1AA009291F6 /* RSSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106AA5B2433B1AA009291F6 /* RSSTableViewCell.swift */; };
 		D1B45005242BCB0500114006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B45004242BCB0500114006 /* AppDelegate.swift */; };
 		D1B45007242BCB0500114006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B45006242BCB0500114006 /* SceneDelegate.swift */; };
 		D1B45009242BCB0500114006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B45008242BCB0500114006 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D106AA5B2433B1AA009291F6 /* RSSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSTableViewCell.swift; sourceTree = "<group>"; };
 		D1B45001242BCB0500114006 /* RSSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B45004242BCB0500114006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1B45006242BCB0500114006 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D1B45004242BCB0500114006 /* AppDelegate.swift */,
 				D1B45006242BCB0500114006 /* SceneDelegate.swift */,
 				D1B45008242BCB0500114006 /* ViewController.swift */,
+				D106AA5B2433B1AA009291F6 /* RSSTableViewCell.swift */,
 				D1B4500A242BCB0500114006 /* Main.storyboard */,
 				D1B4500D242BCB0800114006 /* Assets.xcassets */,
 				D1B4500F242BCB0800114006 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D106AA5C2433B1AA009291F6 /* RSSTableViewCell.swift in Sources */,
 				D1B45009242BCB0500114006 /* ViewController.swift in Sources */,
 				D1B45005242BCB0500114006 /* AppDelegate.swift in Sources */,
 				D1B45007242BCB0500114006 /* SceneDelegate.swift in Sources */,
