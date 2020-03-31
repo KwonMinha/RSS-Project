@@ -65,7 +65,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OT8-Ue-SS5">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OT8-Ue-SS5">
                                                     <rect key="frame" x="163" y="63" width="231" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -84,7 +84,7 @@
                                                 <constraint firstItem="Omr-MJ-nYg" firstAttribute="leading" secondItem="NGN-Dw-b6t" secondAttribute="trailing" constant="19" id="Xp9-Yj-H8M"/>
                                                 <constraint firstAttribute="bottom" secondItem="Omr-MJ-nYg" secondAttribute="bottom" constant="26.5" id="rf4-KN-baY"/>
                                                 <constraint firstItem="OIo-HQ-8um" firstAttribute="leading" secondItem="NGN-Dw-b6t" secondAttribute="trailing" constant="19" id="tTk-jU-Lsq"/>
-                                                <constraint firstItem="Omr-MJ-nYg" firstAttribute="top" secondItem="OT8-Ue-SS5" secondAttribute="bottom" constant="44" id="tp6-Zu-7HU"/>
+                                                <constraint firstItem="Omr-MJ-nYg" firstAttribute="top" relation="lessThanOrEqual" secondItem="OT8-Ue-SS5" secondAttribute="bottom" constant="44" id="tp6-Zu-7HU"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

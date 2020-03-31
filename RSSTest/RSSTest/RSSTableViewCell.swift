@@ -17,7 +17,6 @@ class RSSTableViewCell: UITableViewCell {
     
     @IBOutlet weak var thumnailImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    
     @IBOutlet weak var contentLabel: UILabel!
 //    {
 //        didSet {
@@ -29,11 +28,14 @@ class RSSTableViewCell: UITableViewCell {
     @IBOutlet weak var keySecondLabel: UILabel!
     @IBOutlet weak var keyThirdLabel: UILabel!
     
+    var url : String = ""
+    
     var item: RSSItem! {
         didSet {
             titleLabel.text = item.title
             contentLabel.text = item.description
             keyFirstLabel.text = item.pubDate
+            url = item.description
         }
     }
     
